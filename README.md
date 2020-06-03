@@ -21,7 +21,7 @@ console.log(desm(import.meta.url))
 or
 
 ```js
-import { dirname, join } from './index.js'
+import { dirname, join } from 'desm'
 
 console.log(dirname(import.meta.url))
 console.log(join(import.meta.url, 'routes'))
