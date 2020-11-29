@@ -1,6 +1,6 @@
 {
   "name": "desm",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "get the file directory from import.meta.url",
   "main": "index.js",
   "type": "module",
