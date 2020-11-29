@@ -21,3 +21,10 @@ test('join stuff', async ({ is }) => {
 
   is(urlJoin(import.meta.url, 'routes'), join(__dirname, 'routes'))
 })
+
+test('join stuff (concat)', async ({ is }) => {
+  const __filename = fileURLToPath(import.meta.url)
+  const __dirname = dirname(__filename)
+
+  is(urlJoin(import.meta.url, '..', 'routes'), join(__dirname, '..', 'routes'))
+})

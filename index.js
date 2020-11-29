@@ -5,8 +5,8 @@ function urlDirname (url) {
   return dirname(fileURLToPath(url))
 }
 
-function urlJoin (url, str) {
-  return join(urlDirname(url), str)
+function urlJoin (url, ...str) {
+  return join(urlDirname(url), ...str)
 }
 
 export default urlDirname
