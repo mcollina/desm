@@ -12,6 +12,7 @@ function urlJoin (url, ...str) {
 export default urlDirname
 
 export {
+  fileURLToPath as filename,
   urlJoin as join,
-  urlDirname as dirname
+  urlDirname as dirname,
 }
