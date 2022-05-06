@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 import {
   dirname as urlDirname,
+  filename,
   join as urlJoin
 } from './index.js'
 
@@ -13,6 +14,7 @@ test('carbon copy', async ({ is }) => {
 
   is(desm(import.meta.url), __dirname)
   is(urlDirname(import.meta.url), __dirname)
+  is(filename(import.meta.url), __filename)
 })
 
 test('join stuff', async ({ is }) => {
