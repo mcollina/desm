@@ -5,10 +5,6 @@
   "main": "index.js",
   "typings": "index.d.ts",
   "type": "module",
-  "files": [
-    "index.js",
-    "index.d.ts"
-  ],
   "scripts": {
     "test": "node test.js"
   },
