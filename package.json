@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/mcollina/desm#readme",
   "devDependencies": {
-    "tape": "^5.0.1"
+    "tape": "^5.5.3"
   }
 }
